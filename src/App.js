@@ -11,9 +11,11 @@ import {useState} from "react";
 const allCategories = ['All', ...new Set(Items.map(item => item.category))];
 
 function App() {
+    //modal
     const [modalOpen, setModalOpen] = useState(false);
     const [modalContent, setModalContent] = useState(Items);
 
+    //category button
     const [menuItem, setMenuItem] = useState(Items);
     const buttons = allCategories;
 
