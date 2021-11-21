@@ -1,0 +1,21 @@
+.buttons {
+    display: flex;
+    background-color: var(--bs-gray-dark);
+    border-bottom: 3px solid var(--bs-yellow);
+}
+
+.btns {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: larger;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.btns:hover{
+    background: #7d8285;
+    color: #fff;
+    border-radius: 5px;
+}

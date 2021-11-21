@@ -1,0 +1,17 @@
+.modalBackground {
+  display: block;
+  background-color: aqua;
+  z-index: 10;
+  position: fixed;
+  padding: auto;
+  width: 500px;
+  height: fit-content;
+  /* padding-top: 100px; Vị trí của modal */
+  /* left: 0; */
+  /* top: 0; */
+  /* width: 100%;  */
+  /* height: 100%;  */
+  /* overflow: auto; thiết lập scroll khi cần thiết */
+  /* background-color: rgb(177, 20, 20);  */
+  /* background-color: rgba(155, 76, 106, 0.4);  */
+}
