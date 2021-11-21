@@ -14,16 +14,6 @@ function Modal({modalContent, setModalOpen, addItem}) {
             X
           </button>
         </div>
-        {/* <div className="title">
-          <h1>Add to cart</h1>
-          <button
-            onClick={() => {
-              setOpenModal(false);
-            }}
-          >
-            X
-          </button>
-        </div> */}
         <div className="body">
           <p>{modalContent.desc}</p>
         </div>

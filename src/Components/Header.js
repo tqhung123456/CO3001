@@ -15,7 +15,6 @@ const Header = ({name, cart}) => {
                 </button>
                 <div className="collapse navbar-collapse" id="navcol-1">
                     <ul className="navbar-nav align-items-baseline ms-auto">
-                        {/* <li className="nav-item"><a className="nav-link active" href="#">Menu</a></li> */}
                         <li className="nav-item"><a className="nav-link" href="#">Home</a></li>
                         <li className="nav-item">
                             <button onClick={openNav} className="btn btn-outline-dark d-flex align-items-end"

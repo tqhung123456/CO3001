@@ -1,4 +1,3 @@
-import items from "../Items";
 import Item from "./Item";
 import Modal from "./Modal";
 
